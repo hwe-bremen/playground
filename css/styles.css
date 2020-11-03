@@ -49,16 +49,3 @@ header {
 
 
 
-
-
-#ball { position:absolute;
-    width: 300px;
-    height: auto;  }
-
-/** Erst starten, wenn der Button geklickt wird **/
-#start:checked ~ .play { animation:ball 3s; }
-
-@keyframes ball{
-   from { transform: translateX(-400); } 
-   to   { transform: translateX(50px); }
-}
