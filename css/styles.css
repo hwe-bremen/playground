@@ -47,7 +47,9 @@ header {
 }
 
 #checkart {
-	padding: 1.5em;
+	padding: 0.5em;
+	margin: 3em;
+	border-radius: 5%;
 	border: 1px solid black;
 	background-color: red;
 	color: white;
