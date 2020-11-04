@@ -38,7 +38,7 @@ header {
   					animation-duration: 4s;
    					animation-delay: 2s; 
    					animation-fill-mode: forwards;
-   
+}  
 
 @keyframes bullifahr{
    from { transform: translateX(-400px); } 
