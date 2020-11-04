@@ -30,7 +30,6 @@ header {
 #bulli {
     width: 300px;
     height: auto;
-    transform: translateX(-400px);
 }
 
 #bulli { position:absolute;
