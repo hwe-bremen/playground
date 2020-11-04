@@ -28,13 +28,13 @@ header {
 }
 
 #bulli {
-	position:absolute;
-	transform: translateX(-800px);
+	position:absolute;	
     width: 300px;
     height: auto;
 }
 
 	#bulliCheck:checked ~#bulli {
+					transform: translateX(-800px);
 	 				animation-name: bullifahr;
   					animation-duration: 4s;
    					animation-delay: 2s; 
