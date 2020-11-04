@@ -13,15 +13,14 @@ header {
 }
 
 #div-eins {
+	position: absolute;	
     border: 2px solid black;
     background-color: white;
-    padding: 10%;
-    max-height: 20%;
+    max-height: 40%;
     width: 30%;
 }
 
 #div-zwei {
-	position: absolute;	
     margin: 5%;
     border: 2px solid black;
     background-color: green;
