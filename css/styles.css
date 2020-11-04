@@ -33,7 +33,7 @@ header {
     height: auto;
 }
 
-#bulliCheck:checked ~#bulli {	
+#bulliCheck:checked ~ #bulli {	
 	 				animation-name: bullifahr;
   					animation-duration: 4s;
    					animation-delay: 2s; 
