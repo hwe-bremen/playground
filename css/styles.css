@@ -34,7 +34,6 @@ header {
 }
 
 	#bulliCheck:checked ~#bulli {
-					transform: translateX(-800px);
 	 				animation-name: bullifahr;
   					animation-duration: 4s;
    					animation-delay: 2s; 
