@@ -53,7 +53,9 @@ body {
 .bodytext {
 	margin-left: 6em; 
 }
-
+.box1 {
+	margin-top: 0.5em;
+}
 input#bullicheck {
 	display: none;
 }
