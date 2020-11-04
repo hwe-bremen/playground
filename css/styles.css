@@ -40,7 +40,7 @@ header {
    					animation-fill-mode: forwards;
 }  
 
-@keyframes bullifahr{
+@keyframes bullifahr {
    from { transform: translateX(-400px); } 
    to   { transform: translateX(100px); }
 }
