@@ -50,7 +50,7 @@ body {
    from { transform: translateX(-200%); } 
    to   { transform: translateX(50%); }
 }
-span {
+.bodytext {
 	margin-left: 6em; 
 }
 
