@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 
 
 body {
@@ -14,11 +19,11 @@ header {
 }
 
 #div-eins {
-	position: absolute;	
+	display-flex;
+	flex-direction: column;	
     border: 2px solid black;
     background-color: white;
     height: 80%;
-    width: 80%;
 }
 
 #div-zwei {
@@ -47,6 +52,7 @@ header {
 }
 
 #checkart {
+	position: relative;
 	padding: 0.5em;
 	margin: 3em;
 	border-radius: 5%;
