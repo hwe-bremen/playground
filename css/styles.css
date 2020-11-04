@@ -28,7 +28,7 @@ header {
 }
 
 #bulli {
-	position:absolute;	
+	position: absolute;	
     width: 300px;
     height: auto;
 }
@@ -43,6 +43,18 @@ header {
 @keyframes bullifahr {
    from { transform: translateX(-400px); } 
    to   { transform: translateX(100px); }
+}
+
+#blue-car { position: absolute;  }
+#bluecarcheck:checked ~ #blue-car { 
+   animation-name: Wait-And-Start;
+   animation-duration: 4s;
+   animation-delay: 2s; 
+   animation-fill-mode: forwards;
+}
+@keyframes Wait-And-Start {
+    from { transform: translateX(0) }
+    to   { transform: translateX(200%) }
 }
 
 
