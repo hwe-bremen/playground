@@ -51,8 +51,8 @@ header {
    to   { transform: translateX(50%); }
 }
 
-#bullicheck {
-	visibility: none;
+input#bullicheck {
+	display: none;
 }
 
 #checkart {
