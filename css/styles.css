@@ -36,15 +36,18 @@ header {
 #bulli { position:absolute;
         width: 300px;
         height: auto; 
-        animation: bulli 3s; 
+          animation-name: bulli;
+   animation-duration: 4s;
+   animation-delay: 2s; 
+   animation-fill-mode: forwards;
     }
 
-/** Erst starten, wenn der Button geklickt wird **/
-#Bulli-fahr:checked ~ .los { animation: bulli 3s; }
+/** Erst starten, wenn der Button geklickt wird 
+#Bulli-fahr:checked ~ .los { animation: bulli 3s; }**/
 
 @keyframes bulli{
    from { transform: translateX(-400px); } 
-   to   { transform: translateX(-50px); }
+   to   { transform: translateX(100px); }
 }
 
 
