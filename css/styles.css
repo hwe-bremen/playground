@@ -41,8 +41,8 @@ header {
 	animation-fill-mode: forwards;
 }  
 @keyframes bullifahr {
-   from { transform: translateX(0); } 
-   to   { transform: translateX(500px); }
+   from { transform: translateX(-200%); } 
+   to   { transform: translateX(50%); }
 }
 
 
