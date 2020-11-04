@@ -34,13 +34,13 @@ header {
 }
 
 	#bulliCheck:checked ~#bulli {
-	 				animation-name: bulli;
+	 				animation-name: bullifahr;
   					animation-duration: 4s;
    					animation-delay: 2s; 
    					animation-fill-mode: forwards;
    
 
-@keyframes bulli{
+@keyframes bullifahr{
    from { transform: translateX(-400px); } 
    to   { transform: translateX(100px); }
 }
