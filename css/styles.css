@@ -51,10 +51,10 @@ body {
    to   { transform: translateX(50%); }
 }
 .bodytext {
-	margin-left: 6em; 
+	font-size: 0.8em;
 }
 .box1 {
-	margin-top: 0.5em;
+	margin: 2em 0 3em 6em;
 }
 input#bullicheck {
 	display: none;
@@ -63,7 +63,7 @@ input#bullicheck {
 #checkart {
 	position: relative;
 	padding: 0.5em;
-	margin: 6em;
+	margin: 3em 0 3em 6em;
 	border-radius: 5%;
 	border: 1px solid black;
 	background-color: red;
