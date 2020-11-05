@@ -4,4 +4,4 @@ function bulliFahr() {
     div_bulli.classList.toggle("bullilos");
     }
 var buttoneins = document.getElementById("button-click");
- 	buttoneins.addEventListener('click', "bulliFahr");
+ 	buttoneins.addEventListener('click', bulliFahr);
