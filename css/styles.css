@@ -72,4 +72,22 @@ input#bullicheck {
 }
 
 
+/*Zeite Sektion "JavaScript"*/
+
+.buttenstyle {
+		margin: 0 auto;
+		padding: .3em .8em;
+		border: 1px solid gray;
+		background-color: tomato;
+		border-radius: .4em;
+		box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+ 		color: white;
+		text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+ 		font-size: 125%;
+ 		line-height: 1.5;
+ 		transition: 1s ease-in-out;
+ 		transform: translate(0em);
+}
+
+
 

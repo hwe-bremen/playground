@@ -20,3 +20,17 @@ document.addEventListener('DOMContentLoaded', function () {
 			});
 	}
 });
+
+
+function elementSichtbar() {   
+    var boxVier = document.getElementById("box4"); 
+    boxVier.classList.toggle("sichtbar");
+    }
+   function elementSichtbar2() { 
+	var buttonClick = document.getElementById("button-click"); 
+    buttonClick.classList.toggle("buttonstylehover");
+     }
+	
+	var buttonzwei = document.getElementById('button-click')
+ 	buttonzwei.addEventListener('click', elementSichtbar);
+ 	buttonzwei.addEventListener('click', elementSichtbar2);
