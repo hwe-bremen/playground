@@ -18,7 +18,7 @@ body {
 }
 
 #div-eins {
-	display-flex;
+	display: flex;
 	flex-direction: column;	
     border: 2px solid black;
     background-color: white;
