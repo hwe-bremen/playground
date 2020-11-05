@@ -74,6 +74,11 @@ input#bullicheck {
 
 /*Zeite Sektion "JavaScript"*/
 
+#divtwo-one {
+	margin: 8em 0 3em 6em;
+}
+
+
 .buttonstyle {
 		margin: 0 auto;
 		padding: .3em .8em;
