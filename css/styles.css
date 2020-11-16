@@ -75,7 +75,7 @@ input#bullicheck {
 /*Zeite Sektion "JavaScript"*/
 
 #divtwo-one {
-	margin: 8em 0 3em 0em;
+	margin: 0 0 3em 0em;
 }
 
 
@@ -120,15 +120,15 @@ input#bullicheck {
 #mitte {
 	position: relative;	
 	margin: 0 auto;
-	height: 35%; 
+	height: 800px; 
 	width: 90%;
-	background-color: gray;
+	background-color: yellow;
 	z-index: 100;
 }
 #box_mitte {
 	position: absolute;
 	margin: 10%;
-	height: 15%,
+	height: 200px,
 	width: 25%;
 	background-color: red;
 	z-index: 200;
