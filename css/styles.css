@@ -112,8 +112,23 @@ input#bullicheck {
 	animation-duration: 4s;
 	animation-delay: 0.5s; 
 	animation-fill-mode: forwards;
-}  
+}
 @keyframes bullifahr-two {
    from { transform: translateX(-80%); } 
    to   { transform: translateX(200%); }
+}
+
+#mitte {
+	position: relative;	
+	margin: auto 0;
+	height: 35%; 
+	width: 45%;
+	background-color: gray;
+}
+#boxmitte {
+	position: absolute;
+	margin: 10%;
+	height: 15%
+	width: 25%;
+	background-color: red;
 }
