@@ -54,7 +54,7 @@ body {
 	font-size: 0.8em;
 }
 .box1 {
-	margin: 2em 0 3em 6em;
+	margin: 0 0 3em 6em;
 }
 input#bullicheck {
 	display: none;
@@ -62,7 +62,7 @@ input#bullicheck {
 
 #checkart {
 	padding: 0.5em;
-	margin: 3em 0 3em 6em;
+	margin: 0 0 3em 6em;
 	border-radius: 5%;
 	border: 1px solid black;
 	background-color: red;
@@ -122,13 +122,13 @@ input#bullicheck {
 	margin: 0 auto;
 	height: 35%; 
 	width: 90%;
-	background-color: gray
+	background-color: gray;
 	z-index: 100;
 }
 #box_mitte {
 	position: absolute;
 	margin: 10%;
-	height: 15%
+	height: 15%,
 	width: 25%;
 	background-color: red;
 	z-index: 200;
