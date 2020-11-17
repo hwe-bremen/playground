@@ -128,10 +128,8 @@ input#bullicheck {
 #box_mitte {
 	position: absolute;
 	margin: 10%;
-	border-top: 25%;
-	border-left:  150px;
-	border-right: 200px;
-	border-bottom: 25%;
+	height: 200px;
+	width: 25%;
 	background-color: red;
 	z-index: 200;
 }
