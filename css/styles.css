@@ -127,9 +127,9 @@ input#bullicheck {
 }
 #box_mitte {
 	position: absolute;
-	margin: 10%;
-	height: 200px;
-	width: 25%;
-	background-color: red;
+	margin: 0;
+	height: 800px;
+	width: 90%;
+	background-color: black;
 	z-index: 200;
 }
