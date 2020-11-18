@@ -133,3 +133,14 @@ input#bullicheck {
 	background-color: black;
 	z-index: 200;
 }
+h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 3.5rem;
+}
+h2 .maske {
+	background-color: black;
+	color: white;
+	mix-blend-mode: screen;
+	
+}
