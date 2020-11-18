@@ -121,7 +121,7 @@ input#bullicheck {
 	position: relative;	
 	overflow: hidden;
 	margin: 0 auto;
-	max-height: 900px; 
+	max-height: 80vH; 
 	max-width: 90%;
 	background-color: yellow;
 	z-index: 100;
@@ -130,16 +130,12 @@ input#bullicheck {
 	margin: 0;
 	padding: 5em;
 	height: 80vH;
-	width: auto;
-	background-color: black;
-	z-index: 200;
-	color: white;
-	mix-blend-mode: multiply;
+	background-color: white;
+	color: black;
+	mix-blend-mode: screen;
 }
 #eisbild {
 	position: absolute;
-	height: auto;
-	width: auto;
 }
 h2 {
 	font-size: 8rem;
