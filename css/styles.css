@@ -133,7 +133,7 @@ input#bullicheck {
 	background-color: black;
 	z-index: 200;
 	color: white;
-	mix-blend-mode: screen;
+	mix-blend-mode: multiply;
 }
 h2 {
 	font-size: 3rem;
