@@ -128,7 +128,7 @@ input#bullicheck {
 }
 #box_mitte {
 	margin: 0;
-	padding: calc(100vw - 3%);
+	padding: calc(100vw - 97%);
 	background-color: white;
 	color: black;
 	mix-blend-mode: screen;
