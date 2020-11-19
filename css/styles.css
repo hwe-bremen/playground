@@ -147,22 +147,19 @@ h2 {
 	margin: 4rem auto;
 	max-height: 1329px; 
 	max-width: 90%;
-	background-color: yellow;
 	z-index: 100;
 }
 #box_mitte_zwei {
 	margin: 0;
-	padding: 2vW;
+	height: 100%;
 	background-image: linear-gradient(90deg,
                        white 50%, transparent 0),
                    	  linear-gradient(
                     white 50%, transparent 0);
-	background-size: 5vW 5vW;
-	color: black;
+	background-size: 2vW 5vW;
 	mix-blend-mode: screen;
 }
 #eisbild_zwei {
-	height: 100%;
 	width: auto;
 	position: absolute;
 }
