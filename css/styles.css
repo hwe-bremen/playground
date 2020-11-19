@@ -154,10 +154,10 @@ h2 {
 	margin: 0;
 	padding: 2vW;
 	background-image: linear-gradient(90deg,
-                     white 50%, transparent 0),
-                   linear-gradient(
-                     white 50%, transparent 0);
-					 background-size: 3vW 3vW;
+                       white 50%, transparent 0),
+                   	  linear-gradient(
+                    white 50%, transparent 0);
+	background-size: 5vW 5vW;
 	color: black;
 	mix-blend-mode: screen;
 }
