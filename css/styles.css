@@ -145,7 +145,7 @@ h2 {
 	position: relative;	
 	overflow: hidden;
 	margin: 4rem auto;
-	max-height: 1329px; 
+	height: 90vH; 
 	max-width: 90%;
 	z-index: 100;
 }
