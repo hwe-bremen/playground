@@ -121,15 +121,14 @@ input#bullicheck {
 	position: relative;	
 	overflow: hidden;
 	margin: 0 auto;
-	max-height: 80vH; 
+	max-height: 1329px; 
 	max-width: 90%;
 	background-color: yellow;
 	z-index: 100;
 }
 #box_mitte {
 	margin: 0;
-	padding: 5em;
-	height: 80vH;
+	padding: calc(100vw - 3%);
 	background-color: white;
 	color: black;
 	mix-blend-mode: screen;
@@ -138,9 +137,9 @@ input#bullicheck {
 	position: absolute;
 }
 h2 {
-	font-size: calc(20px + (50 - 20) * (100vw - 400px) / (800 - 400));
+	font-size: calc(20px + (45 - 20) * (100vw - 400px) / (800 - 400));
 	font-weight: 700;
-	line-height: calc(30px + (60 - 30) * (100vw - 400px) / (800 - 400));
+	line-height: calc(30px + (55 - 30) * (100vw - 400px) / (800 - 400));
 }
 
 	
