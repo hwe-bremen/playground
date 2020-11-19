@@ -141,5 +141,33 @@ h2 {
 	font-weight: 700;
 	line-height: calc(30px + (55 - 30) * (100vw - 400px) / (800 - 400));
 }
-
+#mitte_zwei {
+	position: relative;	
+	overflow: hidden;
+	margin: 4rem auto;
+	max-height: 1329px; 
+	max-width: 90%;
+	background-color: yellow;
+	z-index: 100;
+}
+#box_mitte_zwei {
+	margin: 0;
+	padding: 2vW;
+	background-color: white;
+	background-image: linear-gradient(90deg,
+                     rgba(200,0,0,.5) 50%, transparent 0),
+                   linear-gradient(
+                     rgba(200,0,0,.5) 50%, transparent 0);
+					 background-size: 30px 30px;
+	color: black;
+	mix-blend-mode: screen;
+}
+#eisbild_zwei {
+	position: absolute;
+}
+h2 {
+	font-size: calc(20px + (45 - 20) * (100vw - 400px) / (800 - 400));
+	font-weight: 700;
+	line-height: calc(30px + (55 - 30) * (100vw - 400px) / (800 - 400));
+}
 	
