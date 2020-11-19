@@ -162,6 +162,8 @@ h2 {
 	mix-blend-mode: screen;
 }
 #eisbild_zwei {
+	height: 100%;
+	width: auto;
 	position: absolute;
 }
 h2 {
