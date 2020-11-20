@@ -1,3 +1,10 @@
+:root {
+	--head_zwei: calc(20px + (45 - 20) * (100vw - 400px) / (800 - 400));
+	--head_zwei_zeile: calc(30px + (55 - 30) * (100vw - 400px) / (800 - 400));
+	--head_zwei_fett: 700;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -164,8 +171,8 @@ h2 {
 	position: absolute;
 }
 h2 {
-	font-size: calc(20px + (45 - 20) * (100vw - 400px) / (800 - 400));
-	font-weight: 700;
-	line-height: calc(30px + (55 - 30) * (100vw - 400px) / (800 - 400));
+	font-size: var(--head_zwei);
+	font-weight: var(--head_zwei_fett);
+	line-height: var(--head_zwei_zeile);
 }
 	
