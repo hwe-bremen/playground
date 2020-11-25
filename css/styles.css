@@ -180,13 +180,13 @@ h2 {
 	height: 800px;
 	background-color: white;
 }
-#rahmen_test{
+#schatten_test{
 	position: relativ;
 	background-color: lemon;
 	max-width: 10vw;
 	height: 400px;
 }
-#rahmen-test{
+#schatten-test::after {
 	position: absolute;
 	content: "";
 	background-color: black;
