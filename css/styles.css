@@ -187,7 +187,6 @@ h2 {
 	background-color: green;
 	width: 10vw;
 	height: 400px;
-	z-index: 1;
 }
 #schatten_test::after {
 	position: absolute;
