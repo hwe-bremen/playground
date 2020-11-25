@@ -175,4 +175,23 @@ h2 {
 	font-weight: var(--head_zwei_fett);
 	line-height: var(--head_zwei_zeile);
 }
-	
+#mitte_drei {
+	width: 100vW;
+	height: 800px;
+	background-color: white;
+}
+#rahmen_test{
+	position: relativ;
+	background-color: lemon;
+	max-width: 10vw;
+	height: 400px;
+}
+#rahmen-test{
+	position: absolute;
+	content: "";
+	background-color: black;
+	height: 100%;
+	width: 100%
+	bottom: -2em
+	left: 2em
+}
