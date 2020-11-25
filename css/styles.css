@@ -185,7 +185,7 @@ h2 {
 	margin: 0 auto;
 	position: relativ;
 	background-color: green;
-	max-width: 10vw;
+	width: 10vw;
 	height: 400px;
 	z-index: 1;
 }
@@ -194,7 +194,7 @@ h2 {
 	content: "";
 	background-color: black;
 	height: 100%;
-	max-width: 100%;
+	width: 100%;
 	bottom: -2em;
 	left: 2em;
 	z-index: -1;
