@@ -188,7 +188,7 @@ h2 {
 	max-width: 10vw;
 	height: 400px;
 }
-#schatten-test::after {
+#schatten_test::after {
 	position: absolute;
 	content: "";
 	background-color: black;
