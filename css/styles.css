@@ -194,7 +194,7 @@ h2 {
 	content: "";
 	background-color: black;
 	height: 100%;
-	width: 100%;
+	max-width: 100%;
 	bottom: -2em;
 	left: 2em;
 	z-index: -1;
