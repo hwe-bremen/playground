@@ -176,10 +176,12 @@ h2 {
 	line-height: var(--head_zwei_zeile);
 }
 #mitte_drei {
+	position: relative;
 	padding: 5%;
 	width: 100vW;
 	height: 800px;
 	background-color: white;
+	z-index: -4;
 }
 #schatten_test{
 	margin: 0 auto;
@@ -194,7 +196,7 @@ h2 {
 	background-color: black;
 	height: 100%;
 	width: 100%;
-	bottom: -2em;
-	left: 2em;
+	top: 1em;
+	left: 1em;
 	z-index: -1;
 }
