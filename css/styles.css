@@ -177,7 +177,7 @@ h2 {
 }
 #mitte_drei {
 	display: grid;
-	grid-template-columns: 30px repeat(6, 1fr) 30px;
+	grid-template-columns: 30px repeat(6, minmax(100px, 300px) 1fr) 30px;
 	grid-template-rows: 1fr 1fr 1fr;
 	position: relative;
 	width: 100vW;
