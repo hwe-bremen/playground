@@ -190,8 +190,6 @@ h2 {
 	grid-row: 2; 
 	position: relative;
 	background-color: green;
-	width: 10vw;
-	height: 400px;
 }
 #schatten_test::after {
 	position: absolute;
