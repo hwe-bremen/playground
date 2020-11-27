@@ -176,15 +176,18 @@ h2 {
 	line-height: var(--head_zwei_zeile);
 }
 #mitte_drei {
+	display: grid;
+	grid-template-columns: 5vw repeat(6, 1fr) 5vw;
+	grid-template-rows: 1fr 1fr 1fr;
 	position: relative;
-	padding: 5%;
 	width: 100vW;
 	height: 800px;
 	background-color: white;
 	z-index: -4;
 }
 #schatten_test{
-	margin: 0 auto;
+	grid-column: span 2 / 4;
+	grid-row-start : 2 
 	position: relative;
 	background-color: green;
 	width: 10vw;
