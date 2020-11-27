@@ -177,7 +177,7 @@ h2 {
 }
 #mitte_drei {
 	display: grid;
-	grid-template-columns: 5vw repeat(6, 1fr) 5vw;
+	grid-template-columns: 30px repeat(6, 1fr) 30px;
 	grid-template-rows: 1fr 1fr 1fr;
 	position: relative;
 	width: 100vW;
@@ -187,7 +187,7 @@ h2 {
 }
 #schatten_test{
 	grid-column: span 2 / 4;
-	grid-row-start : 2 
+	grid-row: 2; 
 	position: relative;
 	background-color: green;
 	width: 10vw;
