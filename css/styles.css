@@ -219,6 +219,8 @@ h2 {
 }
 
 @media screen and (min-width: 800px) {
+	#mitte-drei {
 	grid-template-columns: repeat(6, 1fr);
+	}
 	
 }
