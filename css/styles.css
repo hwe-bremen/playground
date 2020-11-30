@@ -195,7 +195,7 @@ h2 {
 }
 #schatten_test{
 	display: flex;
-	align-content: center;
+	align-items: center;
 	justify-content: center;
 	font-size: var(--p_grundschrift);
 	font-weight: 800;
