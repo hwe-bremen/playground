@@ -175,9 +175,15 @@ h2 {
 	font-weight: var(--head_zwei_fett);
 	line-height: var(--head_zwei_zeile);
 }
+#rand {
+	max-width: 1200px;
+	margin: 0 auto;
+} 
+
+
 #mitte_drei {
 	display: grid;
-	grid-template-columns:  100px repeat(auto-fit, minmax(200px, 1fr)) 100px;
+	grid-template-columns:  repeat(6, 1fr);
 	grid-template-rows: 1fr 1fr 1fr;
 	position: relative;
 	height: 800px;
