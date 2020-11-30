@@ -194,6 +194,8 @@ h2 {
 }
 #schatten_test{
 	grid-column: 1;
+	font-weight: 700;
+	color: white;
 	position: relative;
 	background-color: green;
 }
