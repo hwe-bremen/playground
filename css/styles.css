@@ -219,8 +219,7 @@ h2 {
 }
 
 @media screen and (min-width: 800px) {
-	#mitte-drei {
+	#mitte-drei .elternbox {
 	grid-template-columns: repeat(6, 1fr);
-	}
-	
+	}	
 }
