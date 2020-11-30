@@ -2,6 +2,7 @@
 	--head_zwei: calc(20px + (45 - 20) * (100vw - 400px) / (800 - 400));
 	--head_zwei_zeile: calc(30px + (55 - 30) * (100vw - 400px) / (800 - 400));
 	--head_zwei_fett: 700;
+	--p_grundschrift: 1.2rem
 }
 
 
@@ -193,8 +194,12 @@ h2 {
 	z-index: -4;
 }
 #schatten_test{
-	grid-column: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: var(--p_grundschrift);
 	font-weight: 700;
+	grid-column: 1;
 	color: white;
 	position: relative;
 	background-color: green;
