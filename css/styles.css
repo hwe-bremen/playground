@@ -245,6 +245,7 @@ h2 {
 	
 }
 .kind_box {
+	min-width: 10vh;
 	border: 1px solid black;
 	margin: 2%;
 }
