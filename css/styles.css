@@ -241,12 +241,10 @@ h2 {
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	background-color: white;
-	padding: 10%;
+	padding: 15%;
 	
 }
 .kind_box {
-	height: 10vh;
-	width: 10vw;
 	border: 1px solid black;
 	margin: 2%;
 }
@@ -260,12 +258,15 @@ div.kind_box:first-child {
 }
 div.kind_box:nth-child(2) {
 	background-color: green;
+	flex: 0 1 auto;
 }
 div.kind_box:nth-child(3) {
 	background-color: blue;
+	flex: 0 1 auto;
 }
 div.kind_box:nth-child(4) {
 	background-color: orange;
+	flex: 0 1 auto;
 }
 
 
