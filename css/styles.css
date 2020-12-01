@@ -245,11 +245,13 @@ h2 {
 	
 }
 .kind_box {
-	min-width: 10vh;
+	max-height: 1vh;
+	max-width: 15vh;
 	border: 1px solid black;
 	margin: 2%;
 }
 div.kind_box:first-child {
+	padding: 3%
 	background-color: red;
 	display: flex;
 	font-size: var(--p_grundschrift);
