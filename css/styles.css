@@ -251,7 +251,7 @@ h2 {
 	margin: 2%;
 }
 div.kind_box:first-child {
-	padding: 3%
+	padding: 3%;
 	background-color: red;
 	display: flex;
 	font-size: var(--p_grundschrift);
