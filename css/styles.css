@@ -241,14 +241,28 @@ h2 {
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	background-color: white;
+	padding: 20%;
 	
 }
 .kind_box {
 	height: 15vh;
 	width: 15vw;
 	border: 1px solid black;
+	margin: 5%;
 }
-
+div.kind_box:first-child {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 3 2 1;
+}
+div.kind_box:nth-child(2) {
+	background-color: green;
+}
+div.kind_box:nth-child(3) {
+	background-color: blue;
+}
 
 
 @media screen and (min-width: 800px) {
