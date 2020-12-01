@@ -178,7 +178,7 @@ h2 {
 	font-weight: var(--head_zwei_fett);
 	line-height: var(--head_zwei_zeile);
 }
-#rand {
+#rand .rand-zwei {
 	max-width: 1200px;
 	margin: 3rem auto;
 } 
@@ -232,7 +232,7 @@ h2 {
 
 .eltern-box {
 	display: flex;
-	flex-direction: row wrap;
+	flex-flow: row wrap;
 	justify-content: flex-start;
 	
 }
