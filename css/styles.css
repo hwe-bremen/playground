@@ -232,7 +232,7 @@ h2 {
 .box {
 	overflow: hidden;
 }
-img .object-cover {
+#object-cover {
 	object-fit: cover;
 }
 
