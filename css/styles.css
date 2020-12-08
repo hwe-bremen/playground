@@ -229,6 +229,9 @@ h2 {
 	 grid-column: 1;
 	 grid-row: 5 / span 2;	 
 }
+.object-cover {
+	object-fit: cover;
+}
 
 .rand-zwei {
 	max-width: 70vw;
