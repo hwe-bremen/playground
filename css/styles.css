@@ -290,6 +290,14 @@ article {
 	margin: 10% auto
 }
 
+.headline {
+	margin-bottom: 3%;
+}
+
+.introtext {
+	margin-bottom: 3%;
+}
+
 article img {
 	width: 100%;
 	height: auto;
