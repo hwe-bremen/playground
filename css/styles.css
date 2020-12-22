@@ -279,6 +279,14 @@ div.kind_box:nth-child(4) {
 	flex: 0 1 auto;
 }
 
+article {
+	display: flex;
+	flex-flow: row wrap;
+	width: 20%;
+	align-items: flex-start;
+	justify-content: center;
+}
+
 
 @media screen and (min-width: 800px) {
 	#mitte_drei {
