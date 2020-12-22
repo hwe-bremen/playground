@@ -303,6 +303,10 @@ article {
 	margin-bottom: 3%;
 }
 
+.buttom {
+	align-self: flex-end;
+}
+
 article img {
 	border: 1px solid black;
 	width: 100%;
