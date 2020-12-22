@@ -285,6 +285,13 @@ article {
 	width: 20%;
 	align-items: flex-start;
 	justify-content: center;
+	border: 1px solid black;
+	padding: 1%;
+}
+
+article img {
+	width: 25%;
+	height: auto;
 }
 
 
